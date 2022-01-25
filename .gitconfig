@@ -1,0 +1,27 @@
+[alias]
+  added = difftool --cached
+  br = branch
+  ci = commit
+  co = checkout
+  lg = log --abbrev-commit --date=iso --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cd)%Creset'
+  st = status --branch --short
+  stash-all = stash save --include-untracked
+  undo = reset --soft HEAD^
+  up = pull --all --rebase --autostash
+
+[branch]
+  autosetuprebase = always
+
+[color]
+  ui = auto
+
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore_global
+  pager = diff-so-fancy | less --no-init --quit-if-one-screen --RAW-CONTROL-CHARS
+
+[gist]
+  private = true
+
+[github]
+  user = tomash

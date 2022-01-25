@@ -1,2 +1,3 @@
 # dotfiles
-there are many dotfiles out there but these are mine
+
+There are many dotfiles out there but these are mine.
