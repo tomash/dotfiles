@@ -1,3 +1,3 @@
 echo "setting up gitconfig"
-echo ~/dotfiles/.gitconfig >> ~/.gitconfig
-echo ~/dotfiles/.gitignore_global >> ~/.gitignore_global
+cat ~/dotfiles/.gitconfig >> ~/.gitconfig
+cat ~/dotfiles/.gitignore_global >> ~/.gitignore_global
