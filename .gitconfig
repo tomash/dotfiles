@@ -18,7 +18,6 @@
 [core]
   editor = vim
   excludesfile = ~/.gitignore_global
-  pager = diff-so-fancy | less --no-init --quit-if-one-screen --RAW-CONTROL-CHARS
 
 [gist]
   private = true
